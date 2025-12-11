@@ -12,6 +12,9 @@ const navLinks = [
   { name: 'Layanan', path: '/products' },
   { name: 'Lacak Kiriman', path: '/track' },
   { name: 'Kontak', path: '/contact' },
+  { name: 'Faq', path: '/faq' },
+  { name: 'Policy', path: '/policy' },
+  { name: 'Tentang Saya', path: '/tentangsaya' },
 ]
 
 const isActive = (path) => route.path === path
@@ -24,9 +27,7 @@ const closeMenu = () => { isOpen.value = false }
     <div class="w-full px-4 sm:px-8 lg:px-16">
       <div class="flex justify-between items-center h-16 sm:h-20">
         <RouterLink to="/" class="flex items-center gap-3">
-          <div
-            class="bg-[#B91C1C] p-2.5 rounded-xl flex items-center justify-center"
-          >
+          <div class="bg-[#B91C1C] p-2.5 rounded-xl flex items-center justify-center">
             <span class="text-2xl">🚚</span>
           </div>
           <span class="text-[#B91C1C] text-lg sm:text-xl font-semibold">

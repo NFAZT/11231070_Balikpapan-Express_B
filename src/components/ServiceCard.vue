@@ -4,9 +4,17 @@ const props = defineProps({
   description: { type: String, required: true },
   estimation: { type: String, required: true },
   price: { type: String, required: true },
+  pricePerKg: { type: Number, required: true },
+  maxWeight: { type: Number, required: true },
   color: { type: String, required: true },
   icon: { type: String, required: true },
 })
+
+const emit = defineEmits(['select'])
+
+const handleSelect = () => {
+  emit('select')
+}
 </script>
 
 <template>
@@ -37,15 +45,22 @@ const props = defineProps({
           </span>
         </div>
         <div class="flex justify-between items-center">
-          <span class="text-gray-500">Mulai dari:</span>
+          <span class="text-gray-500">Tarif:</span>
           <span class="text-[#B91C1C] font-semibold">
             {{ props.price }}
+          </span>
+        </div>
+        <div class="flex justify-between items-center">
+          <span class="text-gray-500">Maksimal berat:</span>
+          <span class="text-gray-900 font-medium">
+            {{ props.maxWeight }} kg
           </span>
         </div>
       </div>
 
       <button
         type="button"
+        @click="handleSelect"
         :class="[props.color, 'w-full text-white py-3 rounded-lg hover:opacity-90 transition-opacity text-sm sm:text-base font-semibold']"
       >
         Pilih Layanan

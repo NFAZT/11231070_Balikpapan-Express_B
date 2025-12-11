@@ -134,10 +134,7 @@ const handleTrack = () => {
 
           <div class="mt-4 text-center">
             <p class="text-gray-500 text-xs sm:text-sm">
-              Coba nomor resi:
-              <span class="text-[#B91C1C] font-semibold">BP123456789</span>
-              atau
-              <span class="text-[#B91C1C] font-semibold">BP987654321</span>
+              nomor resi
             </p>
           </div>
         </div>

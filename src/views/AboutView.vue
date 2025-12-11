@@ -37,7 +37,7 @@ const values = [
           class="text-sm sm:text-base md:text-lg text-red-100 max-w-3xl mx-auto"
         >
           Balikpapan Express adalah perusahaan jasa ekspedisi yang telah
-          dipercaya pelanggan di sKalimantan Timur.
+          dipercaya pelanggan di Kalimantan Timur.
         </p>
       </div>
     </section>
@@ -55,7 +55,7 @@ const values = [
               Didirikan pada tahun 2015, Balikpapan Express berawal dari sebuah
               layanan pengiriman lokal di Balikpapan, Kalimantan Timur. Dengan
               komitmen kuat untuk memberikan layanan terbaik, kami terus
-              berkembang dan kini melayani pengiriman ke seluruh Indonesia.
+              berkembang dan kini melayani pengiriman ke seluruh Kalimantan Timur.
             </p>
             <p class="text-gray-600 mb-4 text-sm sm:text-base">
               Kepercayaan pelanggan adalah aset terbesar kami. Setiap paket
@@ -71,7 +71,7 @@ const values = [
 
           <div>
             <img
-              src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&h=600&fit=crop"
+              src="/cuplikan-layar.png"
               alt="Warehouse Balikpapan Express"
               class="w-full rounded-2xl shadow-lg object-cover"
             />

@@ -20,7 +20,7 @@ import { RouterLink } from 'vue-router'
             class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl
                    mb-6 md:mb-8 leading-tight font-semibold"
           >
-            Cepat, Aman, Terpercaya
+            Siap mengantarkan paket mu!
           </h1>
 
           <p

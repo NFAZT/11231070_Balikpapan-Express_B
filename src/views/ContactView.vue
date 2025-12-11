@@ -52,10 +52,10 @@ const handleSubmit = () => {
                 Telepon
               </h3>
               <p class="text-gray-600 text-sm sm:text-base">
-                (0842) 123-4567
+                (0542) 733-499
               </p>
               <p class="text-gray-600 text-sm sm:text-base">
-                +62 812-3456-7890
+                +62 821-4998-1118
               </p>
             </div>
 
@@ -69,10 +69,7 @@ const handleSubmit = () => {
                 Email
               </h3>
               <p class="text-gray-600 text-sm sm:text-base">
-                info@balikpapanexpress.com
-              </p>
-              <p class="text-gray-600 text-sm sm:text-base">
-                support@balikpapanexpress.com
+                balikpapan.express@gmail.com
               </p>
             </div>
 
@@ -86,9 +83,9 @@ const handleSubmit = () => {
                 Alamat
               </h3>
               <p class="text-gray-600 text-sm sm:text-base">
-                Jl. Jenderal Sudirman No. 123<br />
+                Jl. Pangeran Antasari RT 65 NO 45 Kel. Karang Rejo Kec Balikpapan Tengah<br />
                 Balikpapan, Kalimantan Timur<br />
-                76114
+                76124
               </p>
             </div>
 

@@ -1,4 +1,3 @@
-// src/router/index.js
 import { createRouter, createWebHistory } from 'vue-router'
 
 import HomeView from '../views/HomeView.vue'
@@ -6,6 +5,9 @@ import AboutView from '../views/AboutView.vue'
 import ProductsView from '../views/ProductsView.vue'
 import ContactView from '../views/ContactView.vue'
 import TrackView from '../views/TrackView.vue'
+import FAQView from '../views/FAQView.vue'
+import PolicyView from '../views/PolicyView.vue'
+import TentangSayaView from '../views/TentangSayaView.vue'
 
 const routes = [
   { path: '/', name: 'home', component: HomeView },
@@ -13,6 +15,9 @@ const routes = [
   { path: '/products', name: 'products', component: ProductsView },
   { path: '/contact', name: 'contact', component: ContactView },
   { path: '/track', name: 'track', component: TrackView },
+  { path: '/faq', name: 'faq', component: FAQView },
+  { path: '/policy', name: 'policy', component: PolicyView },
+  { path: '/tentangsaya', name: 'tentangsaya', component: TentangSayaView },
 ]
 
 const router = createRouter({
