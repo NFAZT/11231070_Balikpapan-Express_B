@@ -4,3 +4,14 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
 
+https://github.com/NaufalFaza11/Desweb-Minggu-9_11231070_B.git
+
+Router Halaman Baru
+{ path: '/tentangsaya', name: 'tentangsaya', component: TentangSayaView },
+
+File yang terlibat
+components/AppHeader.vue
+router/index.js
+
+Nama Halaman Baru
+views/TentangSayaView.vue
