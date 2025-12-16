@@ -12,9 +12,6 @@ const navLinks = [
   { name: 'Layanan', path: '/products' },
   { name: 'Lacak Kiriman', path: '/track' },
   { name: 'Kontak', path: '/contact' },
-  { name: 'Faq', path: '/faq' },
-  { name: 'Policy', path: '/policy' },
-  { name: 'Tentang Saya', path: '/tentangsaya' },
 ]
 
 const isActive = (path) => route.path === path
